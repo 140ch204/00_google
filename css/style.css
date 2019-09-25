@@ -1,0 +1,129 @@
+.class
+{
+
+}
+
+#id
+{
+
+}
+
+
+
+.classbodyy {
+  min-height: 100vh;
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('imageloupe.jpg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+
+}
+
+.bouton {
+  width: auto;
+  height: 34px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  border: 1px solid white;
+  font-family:arial,sans-serif;
+  font-size: 14px;
+  padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+  margin-bottom: 25px;
+      margin-top: 25px;
+
+
+
+}
+
+.body
+{
+margin:0;
+}
+
+#imagegoogle {
+  padding-top: 109px;
+}
+
+
+#vocal {
+  height: 40px;
+  color:blackS;
+}
+
+#idinput
+{
+    display: flex;
+    height: 40px;
+    border: 1px solid #e4e4e4;
+    border-radius: 20px;
+    width:482px;
+
+  }
+
+
+
+
+
+#divhead
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.barreduhauttexte
+{
+color: color: #757575;
+font-size: 12px;
+font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+margin-left: 10px;
+margin-right: 10px
+}
+
+.centrepage
+{
+display: flex;
+justify-content: center
+}
+
+
+#pieddepage
+{
+min-height: 80px;
+background-color: #f2f2f2;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+
+}
+
+#pieddepage_L1
+{
+color: rgba(0,0,0,.54);
+font-size: 16px;
+font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+}
+
+#pieddepage_L2
+{
+  display: flex;
+  border-top: 1px solid #e4e4e4;
+      color: rgba(0,0,0,.54);
+      font-size: 13px;
+      font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+      justify-content: space-between;
+}
+
+#idfooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
